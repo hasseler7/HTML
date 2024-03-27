@@ -12,10 +12,10 @@
 //entao acesso permitido
 //senao Login ou senha incorretos!
 
-if (login=="senai" && senha == "010203") {
-msg.innerText = "Acesso Permitido!";
+if (login=="senai" && senha == "123") {
+msg.innerHTML = "Acesso Permitido! <a href='index.html> Clique aqui</a";
 msg.style = "background-color: green;"
-window.location.g
+window.location.href = "index.html";
 } else {
 msg.innerText = "Login ou senha incorretos!";
 msg.style = "background-color: red;"

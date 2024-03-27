@@ -15,6 +15,7 @@
 if (login=="senai" && senha == "010203") {
 msg.innerText = "Acesso Permitido!";
 msg.style = "background-color: green;"
+window.location.g
 } else {
 msg.innerText = "Login ou senha incorretos!";
 msg.style = "background-color: red;"
